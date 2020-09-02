@@ -10694,5 +10694,8 @@ body {
 main {
   flex-grow: 1;
 }
-
+.monsimg{
+  height: 100%;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */

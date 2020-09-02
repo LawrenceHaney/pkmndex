@@ -1,7 +1,9 @@
-import ValuesController from "./Controllers/ValuesController.js";
 
+import MonsController from "./Controllers/MonsController.js"
+import MyMonsController from "./Controllers/MyMonsController.js";
 class App {
-  valuesController = new ValuesController();
+  monsController = new MonsController();
+  myMonsController = new MyMonsController()
 }
 
 window["app"] = new App();

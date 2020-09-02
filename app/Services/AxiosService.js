@@ -4,5 +4,5 @@ export const sandboxApi = axios.create({
 })
 
 export const dexApi = axios.create({
-  baseURL: "https://pokeapi.co/api/v2/pokemon?limit=150",
+  baseURL: "https://pokeapi.co/api/v2/",
   timeout: 10000})

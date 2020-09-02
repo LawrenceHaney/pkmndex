@@ -1,10 +1,14 @@
-import Value from "./Models/Value.js"
+import Mons from "./Models/Mon.js"
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
-  /** @type {Value[]} */
-  values = []
+  apiMons = []
+  activeMon = null
+/**@type {Mons[]} */
+  mons = []
+
+  mymons = []
 }
 
 export const ProxyState = new Proxy(new AppState(), {
